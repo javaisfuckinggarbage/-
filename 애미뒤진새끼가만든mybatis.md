@@ -1,10 +1,12 @@
+```xml
 <$queryType id="$queryID">
     	${Query}
 </$queryType>
 
 $queryType = {UPDATE, SELECT, DELETE...}
+```
 
-
+```xml
 <choose>
     <when test="option == 'TC'.toString()">
       ${Query}
@@ -13,3 +15,4 @@ $queryType = {UPDATE, SELECT, DELETE...}
        ${Query}
     </otherwise>
 </choose>
+```
