@@ -7,9 +7,9 @@
 
 $queryType = {UPDATE, SELECT, DELETE...}
 
-$resultType = int
+$resultType = 반환타입 = {int, DTO}
 
-$parameterType
+$parameterType = 매개 변수 타입 = {유효성 검증 어노테이션 클래스 VO}
 ```
 
 ```xml
