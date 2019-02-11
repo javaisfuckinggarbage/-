@@ -1,0 +1,15 @@
+<$queryType id="$queryID">
+    	${Query}
+</$queryType>
+
+$queryType = {UPDATE, SELECT, DELETE...}
+
+
+<choose>
+    <when test="option == 'TC'.toString()">
+      ${Query}
+    </when>
+    <otherwise>
+       ${Query}
+    </otherwise>
+</choose>
