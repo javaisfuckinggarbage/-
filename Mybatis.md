@@ -18,6 +18,8 @@ $parameterType = 매개 변수 타입 = {유효성 검증 어노테이션 클래
 </select>
 ```
 
+# Choose #
+
 ```xml
 <choose>
     <when test="option == 'TC'.toString()">
