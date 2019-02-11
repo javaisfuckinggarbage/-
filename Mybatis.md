@@ -1,3 +1,5 @@
+Maven : https://mvnrepository.com/artifact/org.mybatis
+
 # Config #
 
 # typeAliases #
