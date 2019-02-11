@@ -1,3 +1,5 @@
+# 기본 쿼리 #
+
 ```xml
 <$queryType id="$queryID">
     	${Query}
