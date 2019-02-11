@@ -1,3 +1,16 @@
+# Config #
+
+# typeAliases #
+
+```매퍼의 resultType, parameterType에서 참조할 오브젝트를 정의한다```
+
+```xml
+<typeAlias alias="$alias" type="$classPackage" />
+````
+
+```xml
+<typeAlias alias="sampleVO" type="com.java.app.board.vo.BoardVO" />
+```
 
 # Mappers #
 
