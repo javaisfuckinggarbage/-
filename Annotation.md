@@ -226,6 +226,8 @@ public class Controller(){}
 
 # @Autowired (Auto Wiring by type) - Dependency Injection #
 
+``import org.springframework.beans.factory.annotation.Autowired;``
+
 ```(╯°□°）╯︵```
 
 #### Spring의 의존성 삽입 기능에 의해 자동 생성되도록 생성자, 필드, 설정 메소드 또는 구성 메소드를 표시한다.
@@ -237,7 +239,9 @@ private ClassName ClassVariable;
 
 
 
-# :worried: @Qualifier("Object") #
+# @Qualifier("Object") #
+
+``import org.springframework.beans.factory.annotation.Qualifier;``
 
 #### 이 주석은 autowiring 할 때 후보 빈에 대한 규정 자로 필드 또는 매개 변수에 사용될 수 있다. 또한 다른 사용자 정의 주석에 주석을 달고 한정자로 사용할 수 있다.
 
