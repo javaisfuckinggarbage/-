@@ -207,6 +207,8 @@ public class Controller(){}
 
 # @RequestMapping #
 
+``import org.springframework.web.bind.annotation.RequestMapping;``
+
 ```(╬ ಠ益ಠ)```
 
 #### 요청 처리 클래스의 메소드에 웹 요청을 매핑하는 주석. Spring MVC와 Spring WebFlux는 RequestMappingHandlerMapping과 RequestMappingHandlerAdapter를 통해 각각의 모듈과 패키지 구조에서 이 주석을 지원한다. 
