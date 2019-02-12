@@ -6,7 +6,7 @@ Maven : https://mvnrepository.com/artifact/org.mybatis
 
 ```매퍼의 resultType, parameterType에서 참조할 오브젝트를 정의한다```
 
-```xml
+> ```xml
 <typeAlias alias="$alias" type="$classPackage" />
 ````
 
