@@ -1,5 +1,7 @@
 
-# @RestControllerAdvice == {@ControllerAdvice + @ResponseBody} #
+# @RestControllerAdvice #
+
+@ControllerAdvice + @ResponseBody와 같다.
 
 # @ResponseStatus #
 
