@@ -100,7 +100,9 @@ View에서 전달해주는 파라미터를 클래스(VO/DTO)의 멤버변수로 
 
 # @CookieValue #
 
-# @SpringBootApplication == {@Configuration, @EnableAutoConfiguration, @ComponentScan} #
+# @SpringBootApplication #
+
+@Configuration, @EnableAutoConfiguration, @ComponentScan와 같다.
 
 # @Email #
 
