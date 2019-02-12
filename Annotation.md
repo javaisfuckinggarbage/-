@@ -1,4 +1,3 @@
-<img src="https://memecrunch.com/meme/SCCF/avgn-what-were-they-thinking/image.png?w=1020&c=1" alt="Build Status">
 
 # @RestControllerAdvice == {@ControllerAdvice + @ResponseBody} #
 
