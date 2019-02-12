@@ -2,6 +2,8 @@ Maven : https://mvnrepository.com/artifact/org.mybatis
 
 # Config #
 
+<hr/>
+
 # typeAliases #
 
 ```매퍼의 resultType, parameterType에서 참조할 오브젝트를 정의한다```
