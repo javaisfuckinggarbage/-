@@ -9,3 +9,7 @@
 # HttpServletResponse #
 
 ``import javax.servlet.http.HttpServletResponse;``
+
+# Model #
+
+``import org.springframework.ui.Model;``
