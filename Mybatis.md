@@ -38,7 +38,22 @@ $parameterType = 매개 변수 타입 = {유효성 검증 어노테이션 클래
 </select>
 ```
 
+# If #
+```xml
+<if test="$Condition">
+    ${Query}
+</if>
+```
+
+```xml
+<if test="title != null">
+    AND title like #{title}
+</if>
+```
+
 # Choose #
+
+Switch 
 
 ```xml
 <choose>
